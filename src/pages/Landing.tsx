@@ -6,7 +6,7 @@ import { CheckCircle, Clock, Plus, Star, Zap, Heart, Skull, Moon, Sparkles, Zap 
 export default function Landing() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-purple-900/20 to-pink-900/30 relative overflow-hidden">
-      {/* CRAZY Animated Background Elements */}
+      {/* CRAZY Animated Background Elements hellooooo */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-20 w-72 h-72 bg-pink-500/30 rounded-full blur-3xl animate-pulse animate-spin"></div>
         <div className="absolute top-40 right-32 w-96 h-96 bg-purple-500/30 rounded-full blur-3xl animate-pulse animate-bounce delay-1000"></div>
