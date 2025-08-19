@@ -6,18 +6,7 @@ import { CheckCircle, Clock, Plus, Star, Zap, Heart, Skull, Moon, Sparkles, Zap 
 export default function Landing() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-purple-900/20 to-pink-900/30 relative overflow-hidden">
-      {/* CRAZY Animated Background Elements hellooooo */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-20 w-72 h-72 bg-pink-500/30 rounded-full blur-3xl animate-pulse animate-spin"></div>
-        <div className="absolute top-40 right-32 w-96 h-96 bg-purple-500/30 rounded-full blur-3xl animate-pulse animate-bounce delay-1000"></div>
-        <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-cyan-500/30 rounded-full blur-3xl animate-pulse animate-ping delay-500"></div>
-        <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-yellow-500/20 rounded-full blur-3xl animate-pulse animate-spin delay-700"></div>
-        <div className="absolute bottom-1/3 right-1/4 w-56 h-56 bg-red-500/25 rounded-full blur-3xl animate-pulse animate-bounce delay-300"></div>
-        
-        {/* Floating geometric shapes */}
-        <div className="absolute top-1/4 right-1/3 w-32 h-32 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg rotate-45 animate-spin duration-10000"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-24 h-24 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full animate-bounce delay-2000"></div>
-        <div className="absolute top-3/4 right-1/6 w-40 h-40 bg-gradient-to-r from-yellow-500 to-orange-600 transform rotate-12 animate-pulse delay-1500"></div>
+
       </div>
 
       {/* GLITCH EFFECT OVERLAY */}
